@@ -33,19 +33,21 @@ Further information about the original dataset can be found at [Appen](https://w
 │
 ├── models                     <- Trained models and ML pipeline
 │   ├── classifier.pkl         <- Saved model
-│   └── train_classifier.py    <- Script to train model
+│   └── train_classifier.py    <- Script to train the model
 │
 ├── data                       <- Raw, processed Data and ETL pipeline
-│   ├── messages.csv           <- Raw data messages
-│   ├── categories.csv         <- Raw data categories
-│   ├── DisasterResponse.db    <- SQL database with processed data
+│   ├── messages.csv           <- Raw data dto process (messages)
+│   ├── categories.csv         <- Raw data dto process (categories)
+│   ├── DisasterResponse.db    <- SQL database to save clean data to
 │   └── process_data.py        <- Script to process the data
 │
 ├── JupyterNotebook            <- Jupyter notebooks with ML and ETL pipelines
 │
 └── App                        <- Source code for use in this project.
-    ├── templates              <- Flask html templates 
-    └── run.py                 <- Scripts to create start Flask server. 
+    ├── templates              
+    │   ├── go.html            <- Classification result page of web app
+    │   └── master.html        <- Main page of web app
+    └── run.py                 <- Flask file that runs app
 ```
 
 ## How to use <a name="use"></a>
