@@ -33,23 +33,23 @@ Further information about the original dataset can be found at [Appen](https://w
 ```
 ├── README.md          
 │
-├── models                     <- Trained models and ML pipeline
-│   ├── classifier.pkl         <- Saved model
-│   └── train_classifier.py    <- Script to train the model
+├── models                          <- Trained models and ML pipeline
+│   ├── classifier.pkl              <- Saved model
+│   └── train_classifier.py         <- Script to train the model
 │
-├── data                       <- Raw, processed Data and ETL pipeline
-│   ├── messages.csv           <- Raw data dto process (messages)
-│   ├── categories.csv         <- Raw data dto process (categories)
-│   ├── DisasterResponse.db    <- SQL database to save clean data to
-│   └── process_data.py        <- Script to process the data
+├── data                            <- Raw, processed Data and ETL pipeline
+│   ├── disaster_messages.csv       <- Raw data dto process (messages)
+│   ├── disaster_categories.csv     <- Raw data dto process (categories)
+│   ├── DisasterResponse.db         <- SQL database to save clean data to
+│   └── process_data.py             <- Script to process the data
 │
-├── JupyterNotebook            <- Jupyter notebooks with ML and ETL pipelines
+├── JupyterNotebook                 <- Jupyter notebooks with ML and ETL pipelines
 │
-└── App                        <- Source code for use in this project.
+└── App                             <- Source code for use in this project.
     ├── templates              
-    │   ├── go.html            <- Classification result page of web app
-    │   └── master.html        <- Main page of web app
-    └── run.py                 <- Flask file that runs app
+    │   ├── go.html                 <- Classification result page of web app
+    │   └── master.html             <- Main page of web app
+    └── run.py                      <- Flask file that runs app
 ```
 
 ## Instructions <a name="instructions"></a>
