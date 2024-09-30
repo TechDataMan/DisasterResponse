@@ -38,8 +38,8 @@ Further information about the original dataset can be found at [Appen](https://w
 │   └── train_classifier.py         <- Script to train the model
 │
 ├── data                            <- Raw, processed Data and ETL pipeline
-│   ├── disaster_messages.csv       <- Raw data dto process (messages)
-│   ├── disaster_categories.csv     <- Raw data dto process (categories)
+│   ├── disaster_messages.csv       <- Raw data to process (messages)
+│   ├── disaster_categories.csv     <- Raw data to process (categories)
 │   ├── DisasterResponse.db         <- SQL database to save clean data to
 │   └── process_data.py             <- Script to process the data
 │
