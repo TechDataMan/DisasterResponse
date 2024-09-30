@@ -71,6 +71,13 @@ Further information about the original dataset can be found at [Appen](https://w
 
 ## Results <a name="results"></a>
 
+The web app (Figure 1) shows the results of the classification. The user can enter messages, which are then classified based on the stored model. In addition to the classification, various statistical evaluations are also shown:
+
+- Distribution of all messages according to genres ('news', 'direct', 'social')
+- Distribution of all messages according to the 36 categories
+- Distribution of the top five categories for all messages
+
+<br>
 <div align="center">
 	<img src="https://github.com/TechDataMan/DisasterResponse/blob/main/app/APP_Screenshot.png?raw=true">
 </div>
