@@ -17,7 +17,7 @@ Writing a data science blog post is one of the projects within the Udacity Data 
 
 ## Data
 The Figure Eight dataset includes around 25k messages of disaters all around the world. The focus of the project ist to classify the incoming messages correctly to the corresponding categories. </br>
-The data of survey contains of the following two CSV files:
+The data contains of the following two CSV files:
 
 <ul>
   <li>messages.csv: Contains around 25k messages
