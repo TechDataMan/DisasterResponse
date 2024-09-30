@@ -87,4 +87,6 @@ The web app (Figure 1) shows the results of the classification. The user can ent
 <br>
 
 ## Licensing <a name="licensing"></a>
-Thanks to Appen (former Figure8) and Udacity for providing the data.
+Thanks to [Appen](https://www.appen.com) (former Figure8) and [Udacity](https://www.udacity.com) for providing the data.
+
+
