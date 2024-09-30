@@ -50,17 +50,18 @@ Further information about the original dataset can be found at [Appen](https://w
 
 ## How to use <a name="use"></a>
 
-- Prepare data
-    1. Clone or download the repo
-    2. Open terminal and navigate to the project folder
-    3. Run ```python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db```
-- Train model
-    4. Run ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
+Prepare data
+- Clone or download the repo
+- Open terminal and navigate to the project folder
+- Run ```python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db```
 
-- Start Web app
-    5. Run ```cd app```
-    6. Run ```python run.py```
-    7. Open web browser and go to http://loclhost:3001 or http://0.0.0.0:3001
+Train model
+- Run ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
+
+Start Web app
+- Run ```cd app```
+- Run ```python run.py```
+- Open web browser and go to http://loclhost:3001 or http://0.0.0.0:3001
 
 ## Results <a name="results"></a>
 
