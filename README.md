@@ -15,6 +15,11 @@ This project is part of my Udacity´s Data Scientist Nanodegree Program.
 
 Writing a data science blog post is one of the projects within the Udacity Data Scientist Nanodegree Program. The StackOverflow Annual Developer Survey from 2024 was chosen as the data basis.
 
+## Data
+The data files associated with this project are from [Figure Eight](https://www.figure-eight.com/dataset/combined-disaster-response-data/)
+
+- messages.csv: 
+- categories.csv: 
 
 ## Files <a name="files"></a>
 
