@@ -7,7 +7,7 @@ This project is part of my Udacity´s Data Scientist Nanodegree Program.
 1. [Project Motivation](#motivation)
 2. [Data](#data)
 3. [Provided Files](#files)
-4. [How to use](#use)
+4. [Instructions](#instructions)
 5. [Results](#results)
 6. [Licensing](#licensing)
 
@@ -52,20 +52,22 @@ Further information about the original dataset can be found at [Appen](https://w
     └── run.py                 <- Flask file that runs app
 ```
 
-## How to use <a name="use"></a>
+## Instructions <a name="instructions"></a>
 
-Prepare data
-- Clone or download the repo
-- Open terminal and navigate to the project folder
-- Run ```python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db```
+1. Clone or download the repo and Open terminal and navigate to the project folder
 
-Train model
-- Run ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
+2. Run the following commands in the project's root directory to set up your database and model.
 
-Start Web app
-- Run ```cd app```
-- Run ```python run.py```
-- Open web browser and go to http://loclhost:3001 or http://0.0.0.0:3001
+    - To run ETL pipeline that cleans data and stores in database</br>
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves</br>
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+3. Go to `app` directory: `cd app`
+
+4. Run your web app: `python run.py`
+
+5. Click the `PREVIEW` button to open the homepage or go to http://loclhost:3001 or http://0.0.0.0:3001
 
 ## Results <a name="results"></a>
 
