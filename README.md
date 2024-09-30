@@ -54,7 +54,7 @@ Further information about the original dataset can be found at [Appen](https://w
 
 ## Instructions <a name="instructions"></a>
 
-1. Clone or download the repo and Open terminal and navigate to the project folder
+1. Clone or download the repo, open terminal and navigate to the project folder
 
 2. Run the following commands in the project's root directory to set up your database and model.
 
