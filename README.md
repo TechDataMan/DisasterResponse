@@ -16,7 +16,7 @@ This project is part of my Udacity´s Data Scientist Nanodegree Program.
 Writing a data science blog post is one of the projects within the Udacity Data Scientist Nanodegree Program. The StackOverflow Annual Developer Survey from 2024 was chosen as the data basis.
 
 ## Data
-The Figure Eight dataset includes around 25k messages of disaters all around the world. The focus of the project ist to classify the incoming messages correctly to the corresponding categories. </br>
+The Appen (former Figure Eight) dataset includes around 25k messages of disaters all around the world. The focus of the project ist to classify the incoming messages correctly to the corresponding categories. </br>
 The data contains of the following two CSV files:
 
 <ul>
@@ -24,7 +24,7 @@ The data contains of the following two CSV files:
   <li>categories.csv: Contains the 36 categories 
 </ul>
 
-Further information about the original dataset can be found at [Figure Eight](https://www.figure-eight.com/dataset/combined-disaster-response-data/)
+Further information about the original dataset can be found at [Appen](https://www.appen.com/) former Figure Eight.
 
 ## Provided Files <a name="files"></a>
 
