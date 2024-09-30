@@ -69,3 +69,4 @@ Further information about the original dataset can be found at [Appen](https://w
 
 
 ## Licensing <a name="licensing"></a>
+Thanks to Appen and Udacity for providing the data.
