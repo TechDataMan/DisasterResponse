@@ -67,7 +67,7 @@ Further information about the original dataset can be found at [Appen](https://w
 
 4. Run your web app: `python run.py`
 
-5. Click the `PREVIEW` button to open the homepage or go to http://loclhost:3001 or http://0.0.0.0:3001
+5. Click the `PREVIEW` button to open the homepage via http://loclhost:3001 or http://0.0.0.0:3001
 
 ## Results <a name="results"></a>
 
