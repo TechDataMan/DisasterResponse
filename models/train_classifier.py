@@ -79,7 +79,7 @@ def tokenize(text):
     
 def build_model():
     """
-    Function to build the Machine Learning Model fpr prediction:
+    Function to build the Machine Learning Model for prediction. AdaBoostClassifier is used.
     
     Parameter:
         NONE
