@@ -72,10 +72,10 @@ Further information about the original dataset can be found at [Appen](https://w
 ## Results <a name="results"></a>
 
 <div align="center">
-	<img src="https://github.com/techdataman/techdataman.github.io/blob/main/_posts/_img/02_Education.png?raw=true">
+	<img src="https://github.com/TechDataMan/DisasterResponse/blob/main/app/APP_Screenshot.png?raw=true">
 </div>
 <div align="center">
-	<i>Figure 1 – Histogram of the survey results in response to the question about the level of education required</i>
+	<i>Figure 1 – Screenshot of the Web-App</i>
 </div>
 <br>
 
