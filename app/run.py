@@ -43,14 +43,14 @@ def index():
     genre_counts = df.groupby('genre').count()['message']
     genre_names = list(genre_counts.index)
 
-    # Descending categorical message counts for ALL messages (for 2nd visualization):
-    cats =  df[df.columns[4:]] # select categories within DataFrame
-    cat_counts = (cats.shape[0] * cats.mean()).sort_values(ascending=True)
+    # Message counts for ALL messages (categorical):
+    cat =  df[df.columns[4:]] # select categories within DataFrame
+    cat_counts = (cat.shape[0] * cat.mean()).sort_values(ascending=True)
     cat_names = list(cat_counts.index)  
     
     # Top five categories count
-    top_category_count = df.iloc[:,4:].sum().sort_values(ascending=False)[0:5]
-    top_category_names = list(top_category_count.index)
+    top_cat_count = df.iloc[:,4:].sum().sort_values(ascending=False)[0:5]
+    top_cat_names = list(top_cat_count.index)
     
     # create visuals
     # TODO: Below is an example - modify to create your own visuals
@@ -93,8 +93,8 @@ def index():
         },        
         {    'data': [
                 Bar(
-                    x=top_category_names,
-                    y=top_category_count
+                    x=top_cat_names,
+                    y=top_cat_count
                 )
             ],
 
