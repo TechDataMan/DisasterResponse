@@ -7,7 +7,7 @@ This project is part of my Udacity´s Data Scientist Nanodegree Program.
 1. [Project Motivation](#motivation)
 2. [Data](#data)
 3. [Provided Files](#files)
-4. [Libraries](#libraries)
+4. [How to use](#use)
 5. [Results](#results)
 6. [Licensing](#licensing)
 
@@ -48,22 +48,19 @@ Further information about the original dataset can be found at [Appen](https://w
     └── run.py                 <- Scripts to create start Flask server. 
 ```
 
-## Full Instructions
+## How to use <a name="use"></a>
 
-- Installation
-    Install Python 3.5+
-    Run ```pip install -r requirements.txt```
 - Prepare data
     1. Clone or download the repo
     2. Open terminal and navigate to the project folder
     3. Run ```python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db```
 - Train model
-    5. Run ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
+    4. Run ```python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl```
 
 - Start Web app
-    6. Run ```cd app```
-    7. Run ```python run.py```
-    8. Open web browser and go to http://loclhost:3001 or http://0.0.0.0:3001
+    5. Run ```cd app```
+    6. Run ```python run.py```
+    7. Open web browser and go to http://loclhost:3001 or http://0.0.0.0:3001
 
 ## Results <a name="results"></a>
 
