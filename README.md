@@ -13,10 +13,12 @@ This project is part of my Udacity´s Data Scientist Nanodegree Program.
 
 ## Project Motivation <a name="motivation"></a>
 
-Writing a data science blog post is one of the projects within the Udacity Data Scientist Nanodegree Program. The StackOverflow Annual Developer Survey from 2024 was chosen as the data basis.
+Developing a "Disaster Response Pipeline" is one of the projects within the Udacity Data Scientist Nanodegree Program. The aim of this project is to optimize the process of message processing and forwarding during disasters to ensure that information gets to the right places quickly and efficiently.
+
+This requires the use of natural language processing to classify these messages with the help of machine learning algorithms. Such an application can help to alert the right civil protection authorities as quickly as possible in the event of an emergency. 
 
 ## Data <a name="data"></a>
-The Appen (former Figure Eight) dataset includes around 25k messages of disaters all around the world. The focus of the project ist to classify the incoming messages correctly to the corresponding categories. </br>
+The Appen (former Figure8) dataset includes around 25k messages of disaters all around the world. The focus of the project ist to classify the incoming messages correctly to the corresponding categories. </br>
 The data contains of the following two CSV files:
 
 <ul>
@@ -24,7 +26,7 @@ The data contains of the following two CSV files:
   <li>categories.csv: Contains the 36 categories 
 </ul>
 
-Further information about the original dataset can be found at [Appen](https://www.appen.com/) former Figure Eight.
+Further information about the original dataset can be found at [Appen](https://www.appen.com/) former Figure8.
 
 ## Provided Files <a name="files"></a>
 
@@ -69,4 +71,4 @@ Start Web app
 
 
 ## Licensing <a name="licensing"></a>
-Thanks to Appen and Udacity for providing the data.
+Thanks to Appen (former Figure8) and Udacity for providing the data.
